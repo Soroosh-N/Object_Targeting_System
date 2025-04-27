@@ -1,0 +1,11 @@
+build
+*.elf
+*.bin
+.vscode
+*.o
+*.i
+*.d
+*.lst
+.DS_Store
+.project
+.pio
