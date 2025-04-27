@@ -1,4 +1,4 @@
-# Laser-Guided Remote Object Targeting System
+# Remote Object Targeting System
 
 ![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)
 ![Platform](https://img.shields.io/badge/platform-STM32%20%7C%20ESP32-lightgrey.svg)
@@ -17,6 +17,8 @@ Key technologies:
 - Web technologies (Flask, XAMPP, MySQL)
 
 The project is the result of a mini-project proposed in Spring 2025 at the University of Utah.
+
+*(View the final report of the project here: [Project Report](./Final%20Report.pdf))*
 
 ---
 
@@ -47,7 +49,7 @@ A local **web dashboard** in the laptop visualizes the object detection results.
 ├── mosquitto.conf         # Configuration file for Mosquitto MQTT broker
 ├── README.md               # Project documentation
 ├── Report.pdf              # Project report
-├── esp32_cam/              # ESP32-CAM firmware (object detection & image streaming)
+├── esp32_cam/              # ESP32-CAM firmware (image streaming)
 │   └── esp32_cam.ino
 ├── esp32_nc/               # ESP32 Node Client firmware (receives coordinates, sends to STM32)
 │   └── esp32_nc.ino
@@ -56,15 +58,16 @@ A local **web dashboard** in the laptop visualizes the object detection results.
 │   ├── video_report.m4v
 │   └── datasheet ESP32/ | datasheet ESP32_CAM/ | datasheet STM32/
 ├── server/                 # Laptop server
-│   ├── server.py           # Flask server for image reception and processing
-│   ├── static/             # Static files (images, scripts)
+│   ├── server.py           # Flask server for image reception and processing (object detection)
+│   ├── static/
 │   └── templates/
 │       └── index.html      # Frontend page for displaying results
 ├── stm32/                  # STM32 firmware project (PlatformIO based)
     ├── Drivers/
     ├── Inc/                # Included libraries for STM32
-    └── Src/
+    └── Src/                # Main folder for source codes
         └── main.c          # Main code for STM32
+    └── OtherFolders        # STM32 firmware codes
 ```
 
 ---
