@@ -181,6 +181,14 @@ A local **web dashboard** in the laptop visualizes the object detection results.
 
 ---
 
+## Future Improvements 🚀
+
+- Implement homography-based auto-calibration
+- Improve color detection robustness
+- Complete laser hit detection by recognizing a red dot via OpenCV
+
+---
+
 ## Project Demo Video 🎥
 
 [Watch the Project Demo](res/video_report.m4v)
@@ -192,14 +200,6 @@ A local **web dashboard** in the laptop visualizes the object detection results.
 ## Group Photo 📸
 
 ![Team Photo](res/group_photo.jpg)
-
----
-
-## Future Improvements 🚀
-
-- Implement homography-based auto-calibration
-- Improve color detection robustness
-- Complete laser hit detection by recognizing a red dot via OpenCV
 
 ---
 
