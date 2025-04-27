@@ -98,12 +98,12 @@ A local **web dashboard** in the laptop visualizes the object detection results.
 
 ### 2. ESP32 Node Client Setup
 
-- Upload `esp32_nc/esp32_nc.ino` to the ESP32.
+- Upload `esp32_nc/esp32_nc.ino` to the ESP32 (Set SSID and Password of your WIFI connection first).
 - ESP32 subscribes to MQTT topic `esp32cam/latest_data` and sends data over UART to STM32.
 
 ### 3. ESP32-CAM Setup
 
-- Upload `esp32_cam/esp32_cam.ino` to the ESP32-CAM.
+- Upload `esp32_cam/esp32_cam.ino` to the ESP32-CAM (Set SSID and Password of your WIFI connection first).
 - ESP32-CAM streams JPEG images to the laptop server through socket connection.
 
 **Note:** ⚠️ Ensure both ESP32 and ESP32-CAM connect to the **laptop's hotspot Wi-Fi**.
