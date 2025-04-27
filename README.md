@@ -35,7 +35,7 @@ STM32  (servo control to point laser)
 A local **web dashboard** in the laptop visualizes the object detection results.
 
 <p align="center">
-  <img src="https://github.com/Soroosh-N/Object_Targeting_System/blob/main/res/block_diagram.PNG?raw=true" width="500" alt="Project Architecture"/>
+  <img src="https://github.com/Soroosh-N/Object_Targeting_System/blob/main/res/block_diagram.PNG?raw=true" width="70%" alt="Project Architecture"/>
 </p>
 
 ---
@@ -201,12 +201,6 @@ A local **web dashboard** in the laptop visualizes the object detection results.
 
 ---
 
-## Group Photo 📸
-
-![Team Photo](res/group_photo.jpg)
-
----
-
 ## Team Members 👨‍💻👨‍💻👨‍💻
 
 - Jon Dromey - B.S. at the Mechanical Engineering Department
@@ -216,3 +210,11 @@ A local **web dashboard** in the laptop visualizes the object detection results.
 **Supervisor**: Pierre-Emmanuel Gaillardon
 
 **University of Utah - Spring 2025**
+
+---
+
+## Group Photo 📸
+
+<p align="center">
+  <img src="https://github.com/Soroosh-N/Object_Targeting_System/blob/main/res/group_photo.webp?raw=true" width="70%" alt="Team Photo"/>
+</p>
