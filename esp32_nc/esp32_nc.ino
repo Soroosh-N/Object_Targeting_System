@@ -3,8 +3,8 @@
 #include <ArduinoJson.h>
 
 // WiFi credentials (laptop hotspot)
-const char* ssid = "MQTT_WIFI";
-const char* password = "78ta56ta";
+const char* ssid = "WIFI_SSID";
+const char* password = "WIFI_PASSWORD";
 
 // MQTT Broker IP (your laptop's IP address)
 const char* mqtt_server = "192.168.137.1";

@@ -3,8 +3,8 @@
 #include <HTTPClient.h>
 
 // Your laptop hotspot details
-const char* ssid = "MQTT_WIFI";
-const char* password = "78ta56ta";
+const char* ssid = "WIFI_SSID";
+const char* password = "WIFI_PASSWORD";
 
 // Replace with your laptop server IP and port
 const char* serverName = "http://192.168.137.1:5000/upload";
