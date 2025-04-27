@@ -35,7 +35,7 @@ STM32  (servo control to point laser)
 A local **web dashboard** in the laptop visualizes the object detection results.
 
 <p align="center">
-  <img src="./res/block_diagram.png" width="500" alt="Project Architecture"/>
+  <img src="https://github.com/Soroosh-N/Object_Targeting_System/blob/main/res/block_diagram.PNG?raw=true" width="500" alt="Project Architecture"/>
 </p>
 
 ---
