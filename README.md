@@ -34,6 +34,10 @@ STM32  (servo control to point laser)
 
 A local **web dashboard** in the laptop visualizes the object detection results.
 
+<p align="center">
+  <img src="./res/block_diagram.png" width="500" alt="Project Architecture"/>
+</p>
+
 ---
 
 ## Repository Structure 📁
@@ -106,9 +110,9 @@ A local **web dashboard** in the laptop visualizes the object detection results.
 - Upload `esp32_cam/esp32_cam.ino` to the ESP32-CAM (Set SSID and Password of your WIFI connection first).
 - ESP32-CAM streams JPEG images to the laptop server through socket connection.
 
-**Note:** ⚠️ Ensure both ESP32 and ESP32-CAM connect to the **laptop's hotspot Wi-Fi**.
+⚠️ Ensure both ESP32 and ESP32-CAM connect to the **laptop's hotspot Wi-Fi**.
 
-**Note:** ⚠️ Make sure the server is running before powering the ESP32 devices. Else, reset them after starting the server.
+⚠️ Make sure the server is running before powering the ESP32 devices. Else, reset them after starting the server.
 
 ### 4. Laptop Server Setup
 
