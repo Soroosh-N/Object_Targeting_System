@@ -16,7 +16,7 @@ Key technologies:
 - Computer Vision (OpenCV)
 - Web technologies (Flask, XAMPP, MySQL)
 
-The project is the result of a mini-project proposed in Spring 2025 at the University of Utah.
+The project is the result of a mini-project for Embedded Systems Design Course proposed in Spring 2025 at the University of Utah.
 
 *(View the final report of the project here: [Project Report](./Final%20Report.pdf))*
 
